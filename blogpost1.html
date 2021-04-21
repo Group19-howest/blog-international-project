@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Generic Page - Massively by HTML5 UP</title>
+		<title>Day 1</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -43,13 +43,20 @@
 					<section class="post">
 						<header class="major">
 							<span class="date">April 19, 2021</span>
-							<h1>Title</h1>
-							<p>Short introduction/summary</p>
+							<h1>Getting started</h1>
+							<p>In this post you will learn more about how we set everything up on our first day.</p>
 						</header>
 						<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-						<p>alinea 1</p>
-						<p>alinea 2</p>
-						<p>alinea 3</p>
+						<p>Today was the first day of our international project. Unfortunately, due to Covid, our original project in Sweden was cancelled and we had to come up with an interesting idea to work on for a week ourselves. </p>
+						<p>We decided to make a capture the flag event. We chose this because most of us have already participated in multiple of them and we found them very fun to participate in. So the idea to make one ourselves was something we were all on board with pretty quickly.</p>
+						<p>Today we started off by doing a bit of research on what's the best way to host a website where all of the challenges will be listed.</p>
+						<p>It turns out there is already a platform that you can just host yourself. When we found the github page of CTFd, we immediately recognized it because the previous events we partook in were hosted on the same platform. </p>
+						<p>After we found which platform we would use, we had to get it set up. First, we tried hosting it on Combell, but the platform runs in a docker container and we weren’t able to set that up on their platform. We didn’t find any other free solutions, so I decided to host it on a virtual machine on my own PC. This took some time to set up because I accidentally installed the GUI version of Debian at first. When the docker container was finally up and running I still had to make sure my team could access it as well.</p>
+						<p>This was a lot harder than we thought it was going to be. Normally, you would only need to log into your router and enable port mapping so your website get’s pushed out to the public IP address as well. We tried multiple times to set it up with NAT and a Bridged connection from the virtual machine to my laptop, but it never worked. Until we found a forum post from someone online who has had the exact same problem. Turns out that Proximus also has a switch that is in your account and not in the router to explicitly block the port we needed. After restarting the router, everyone was able to connect to the site.</p>
+						<p>We then spend some thinking about which types of challenges we wanted to make. We decided that we would start with making the easy ones so we could get a feel for how we had to publish them into the platform. </p>
+						<p>After the lunchbreak, we then started with creating challenges. Since every capture the flag event we participated in had a rickroll somewhere, we wanted to do this as well. The first challenges we made are mostly challenges where you have to decode something. There was also one where you were given 2 links and you had to hunt for the flag on those sites.</p>
+						<p>Each time someone had finished a challenge, the others team members tried to find the flag and gave feedback so we could improve them and make them more fun and challenging.</p>
+						<p>At the end of the day, we had a call with our coach so we could inform him about what we did today and how it all went. Overall, I’m really happy we managed to set up the platform, even though it was a bit demotivating to have spent too much time on something we configured correctly on the first go, but at the end of the day I’m really glad with the progress we have made and I’m looking forward to the rest of the week.</p>
 						<p class="author">- Bart Deschepper</p>
 					</section>
 
