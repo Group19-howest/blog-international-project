@@ -4687,7 +4687,9 @@ input, select, textarea {
 		}
 
 	}
-
+	.author{
+		font-style: italic;
+	}
 	.avatar{
 		border-radius: 50%;
 		width: 20%;
