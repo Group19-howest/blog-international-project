@@ -4687,6 +4687,9 @@ input, select, textarea {
 		}
 
 	}
+	.posts .author{
+		margin-top: -1.5rem;
+	}
 	.author{
 		font-style: italic;
 	}
